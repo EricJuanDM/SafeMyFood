@@ -1,10 +1,10 @@
-article .bibliotecaArea h1{
+article .Topico{
     padding-left: 53px;
     margin-top: 30px;
 }
 
-article .bibliotecaArea h2{
-    font-size: 17px;
+article .subTop{
+    font-size: 10px;
     color: #3e3e3e;
     margin-bottom: 30px;
     padding-left: 53px;
@@ -33,6 +33,34 @@ article .Organizador{
     font-size: 15px;
 
 }
+article .itemArea{
+    display: flex;
+    flex-direction: column;
+}
+.item {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+.remover{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+.remover:hover{
+        background-color: darkred;
+}
+      
 article .produtos{
     background-color: #ffffff;
     padding: 20px;
@@ -44,3 +72,17 @@ article .produtos{
 }
 
 
+
+
+
+
+
+
+/* BLoco das div para organização*/
+article .Topico{
+    border: red 1px solid;
+
+}
+article .subTop{
+    border: blue 1px solid;
+}
