@@ -1,8 +1,34 @@
-.listaArea {
+article .bibliotecaArea h1{
+    padding-left: 53px;
+    margin-top: 30px;
+}
+
+article .bibliotecaArea h2{
+    font-size: 17px;
+    color: #3e3e3e;
+    margin-bottom: 30px;
+    padding-left: 53px;
+}
+
+article .listaArea {
     background-color:#63B279 ;
     padding: 20px;
     border-radius: 10px;
-    color: white;
+    color: #ffffff; 
     width: 80%;
     margin: auto;
+    margin-top: 30px;
 }
+
+article .listaArea h3{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+article .Organizador{
+    border: 2px solid #ffffff;
+
+}
+
+
