@@ -27,8 +27,20 @@ article .listaArea h3{
 
 }
 article .Organizador{
-    border: 2px solid #ffffff;
+    border: 3px solid #ffffff;
+    padding: 3px ;
+    border-radius: 5px;
+    font-size: 15px;
 
+}
+article .produtos{
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
 }
 
 
