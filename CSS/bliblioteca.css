@@ -33,47 +33,60 @@ article .Organizador{
     font-size: 15px;
 
 }
-article .itemArea{
-    display: flex;
-    flex-direction: column;
-}
-.item {
+
+
+.item1{
     display: flex;
     align-items: center;
-    gap: 10px; 
-    padding: 10px;
-    border-bottom: 1px solid #ddd;
+    border: red 1px solid;  
 }
 .remover{
     background-color: red;
     color: white;
     border: none;
     border-radius: 50%;
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 20px;
     cursor: pointer;
 }
-.remover:hover{
-        background-color: darkred;
-}
+
       
 article .produtos{
+    display: flex;
     background-color: #ffffff;
     padding: 20px;
     border-radius: 10px;
     color: black;
     width: 80%;
     margin: auto;
-    margin-top: 30px;
+    margin-top: 10px;
+    align-items: center;
+}
+.validade{
+    background-color: #63B279;
+    padding: 8px;
+    border-radius: 10px;
+    margin-left: 65%;
+    margin-top: 0%;
+    margin-right: none;
 }
 
-
-
-
+.engrenagem{
+    height: 4%;
+    width: 40px;
+    margin-left: 6px;
+}
+.remover img{
+    height: 30px;
+    width: 35px;
+}
+.produtos li{
+    width: 150px;
+    text-align: center;}
 
 
 
