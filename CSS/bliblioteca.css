@@ -38,6 +38,8 @@ article .Organizador{
 .item1{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 10px; 
     border: red 1px solid;  
 }
 .remover{
@@ -58,11 +60,11 @@ article .Organizador{
 article .produtos{
     display: flex;
     background-color: #ffffff;
-    padding: 20px;
+    padding: 5px;
     border-radius: 10px;
     color: black;
-    width: 80%;
-    margin: auto;
+    font-weight: bold;
+    width: 92%;
     margin-top: 10px;
     align-items: center;
 }
@@ -70,9 +72,9 @@ article .produtos{
     background-color: #63B279;
     padding: 8px;
     border-radius: 10px;
-    margin-left: 65%;
-    margin-top: 0%;
-    margin-right: none;
+    margin-left: auto;
+    margin-right: 10px;
+    color: #ffffff;
 }
 
 .engrenagem{
@@ -85,9 +87,8 @@ article .produtos{
     width: 35px;
 }
 .produtos li{
-    width: 150px;
-    text-align: center;}
-
+    margin-left: 10px;
+}
 
 
 
