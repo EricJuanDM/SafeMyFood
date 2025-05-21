@@ -40,6 +40,7 @@ article .Organizador{
     align-items: center;
     flex-wrap: wrap;
     gap: 10px; 
+    border: red 1px solid;  
 }
 .remover{
     background-color: red;
@@ -90,11 +91,9 @@ article .produtos{
 }
 
 
-.tooltip-container {
-  position: relative;
-  display: inline-block;
-}
 
+
+/* BLoco das div para organização*/
 .tooltip-text {
   visibility: hidden;
   background-color: #333;
@@ -118,6 +117,7 @@ article .produtos{
   opacity: 1;
 }
 
+
 /* BLoco das div para organização
 article .Topico{
     border: red 1px solid;
@@ -126,4 +126,3 @@ article .Topico{
 article .subTop{
     border: blue 1px solid;
 }
-    */
