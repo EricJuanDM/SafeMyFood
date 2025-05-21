@@ -40,7 +40,6 @@ article .Organizador{
     align-items: center;
     flex-wrap: wrap;
     gap: 10px; 
-    border: red 1px solid;  
 }
 .remover{
     background-color: red;
@@ -91,8 +90,35 @@ article .produtos{
 }
 
 
+.tooltip-container {
+  position: relative;
+  display: inline-block;
+}
 
-/* BLoco das div para organização*/
+.tooltip-text {
+  visibility: hidden;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%; /* Acima do ícone */
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  width: 230px;
+  font-size: 12px;
+}
+
+.tooltip-container:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* BLoco das div para organização
 article .Topico{
     border: red 1px solid;
 
@@ -100,3 +126,4 @@ article .Topico{
 article .subTop{
     border: blue 1px solid;
 }
+    */
