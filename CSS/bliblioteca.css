@@ -39,8 +39,7 @@ article .Organizador{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    gap: 10px; 
-    border: red 1px solid;  
+    gap: 10px;  
 }
 .remover{
     background-color: red;
@@ -93,7 +92,7 @@ article .produtos{
 
 
 
-/* BLoco das div para organização*/
+
 .tooltip-text {
   visibility: hidden;
   background-color: #333;
