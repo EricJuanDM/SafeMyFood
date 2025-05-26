@@ -40,7 +40,6 @@ article .Organizador{
     align-items: center;
     flex-wrap: wrap;
     gap: 10px; 
-    border: red 1px solid;  
 }
 .remover{
     background-color: red;
@@ -92,9 +91,7 @@ article .produtos{
 
 
 
-<<<<<<< Updated upstream
-/* BLoco das div para organização*/
-=======
+
 .tooltip-text {
   visibility: hidden;
   background-color: #333;
@@ -118,13 +115,3 @@ article .produtos{
   opacity: 1;
 }
 
-
-/* BLoco das div para organização
->>>>>>> Stashed changes
-article .Topico{
-    border: red 1px solid;
-
-}
-article .subTop{
-    border: blue 1px solid;
-}
