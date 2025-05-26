@@ -121,6 +121,10 @@ article .produtos{
   opacity: 1;
 }
 
+#OpcoesdeOrganizador{
+    display: none;
+    margin-top: 10px;
+}
 
 
 /* BLoco das div para organização
