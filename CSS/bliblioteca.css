@@ -93,6 +93,11 @@ article .produtos{
 
 
 
+.tooltip-container {
+  position: relative;
+  display: inline-block;
+}
+
 .tooltip-text {
   visibility: hidden;
   background-color: #333;
@@ -115,6 +120,7 @@ article .produtos{
   visibility: visible;
   opacity: 1;
 }
+
 
 
 /* BLoco das div para organização
