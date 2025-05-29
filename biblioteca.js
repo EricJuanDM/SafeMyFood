@@ -17,3 +17,18 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    const botaoOrganizar = document.getElementById("botaoOrganizar");
+    const opcoes = document.getElementById("OpcoesdeOrganizador");
+
+    botaoOrganizar.addEventListener("click", function () {
+        if (opcoes.style.display === "none") {
+            opcoes.style.display = "block";
+        } else {
+            opcoes.style.display = "none";
+        }
+    });
+    
+});
+

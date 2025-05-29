@@ -42,14 +42,14 @@
             <div class = "Topico"><h1>Biblioteca de Alimentos</h1><br></div>
             <div class = "subTop"><h2>Gerencie seus itens e produtos de forma fácil e inteligente</h2></div>
             <div class = "listaArea">
-                <h3> <span>Sua lista </span> 
-                <button><span class="Organizador"></a>Organizar itens</span></h3></button>
-                <div id="OpcoesdeOrganizador">
+                <h3> <span>Sua lista </span>
+                <button id="botaoOrganizar" >Oragnizar itens</button></h3> 
+                <div id="OpcoesdeOrganizador" style="display: none;">
                     <label for="criterio">Organizar por:</label>
                     <select id="criterio">
-                    <option value="Alfa">Alfabeto</option>
-                    <option value="validade">Validade</option>
-                    <option value="quantidade">Quantidade</option>
+                        <option value="Alfa">Alfabeto</option>
+                        <option value="validade">Validade</option>
+                        <option value="quantidade">Quantidade</option>
                     </select>
                     <button onclick="organizarLista()">Aplicar</button>
                 </div>
