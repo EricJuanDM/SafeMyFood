@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SaveMyFood</title>
+    <link rel="stylesheet" href="CSS/receitas.css">
+</head>
+<body>
+    <header>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/receitas.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Familia</title>
+  </head>
+  <body>
+    <div class="bodyArea">
+      <header>
+
+        <div class="headArea">
+          <img src="images/logoSMF.png" class="logo" />
+          <nav>
+            <ul>
+              <li><a href="home.html">Inicio</a></li>
+              <li><a href="family.html">Familia</a></li>
+              <li><a href="biblioteca.html">Biblioteca</a></li>
+              <li><a href="scanner.html">Scanner</a></li>
+              <li><a href="receitas.html">Receitas</a></li>
+              <li><a href="cadastro.html" id="botaoLogin">Entrar</a></li>
+            </ul>
+          </nav>
+          <div class="areaMob" id="toggleMenu">
+            <div class="mobTrac1" id="mobTrac"></div>
+            <div class="mobTrac2" id="mobTrac2"></div>
+            <div class="mobTrac3" id="mobTrac3"></div>
+          </div>
+        </div>
+      </header>
+      <main>
+        <section class="receitas">
+          <h1>🍴 Sugestões de Receitas:</h1>
+            <!-- Imagem grandona nipe de outdoor -->
+            <img src="images/ingredientes.jpg" alt="Imagem ilustrativa de ingredientes" class="header-image">
+          <!-- Barrinha de pesquisa pro usuario ver os bgl q tem em casa e pedir a receita -->
+          <form id="form-busca" onsubmit="handleSubmit(event)">
+            <label for="ingredientes">Buscar por ingredientes:</label>
+            <div class="form-linha">
+              <div class="tag-container" id="ingredientes">
+                <span class="tag">frango</span>
+                <span class="tag">tomate</span>
+                <span class="tag">macarrão</span>
+                <span class="tag">queijo</span>
+              </div>
+              <button class="botaoBuscar" type="submit">Buscar</button>
+            </div>
+          </form>
+          <!-- Cards pra ficar mais bunitinho de ver -->
+          <div class="card-container">
+            <div class="card">
+              <img src="images/macarrao.jpg" alt="Macarrão ao molho" />
+              <h2>Macarrão ao molho</h2>
+              <ul>
+                <li>200 g de macarrão</li>
+                <li>2 colheres (sopa) de azeite</li>
+              </ul>
+              <p>
+                Cozinhe o macarrão e refogue com azeite e molho de tomate...
+              </p>
+              <a href="#" class="btn">Ver receita completa</a>
+            </div>
+
+            <div class="card">
+              <img src="images/sopa.jpeg" alt="Sopa de legumes" />
+              <h2>Sopa de legumes</h2>
+              <ul>
+                <li>1 cenoura picada</li>
+                <li>Legumes variados</li>
+              </ul>
+              <p>
+                Refogue os legumes e cozinhe em caldo com temperos a gosto...
+              </p>
+              <a href="#" class="btn">Ver receita completa</a>
+            </div>
+
+            <div class="card">
+              <img src="images/frango.jpeg" alt="Frango assado" />
+              <h2>Frango assado</h2>
+              <ul>
+                <li>1 frango inteiro</li>
+                <li>Alho, sal e temperos a gosto</li>
+              </ul>
+              <p>
+                Tempere bem o frango e leve ao forno por aproximadamente 1h30 a
+                200°C...
+              </p>
+              <a href="#" class="btn">Ver receita completa</a>
+            </div>
+          </div>
+        </section>
+    </main>
+</div>
+<script src="receitas.js"></script>
+</body>
+</html>

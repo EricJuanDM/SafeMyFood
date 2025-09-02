@@ -1,0 +1,15 @@
+[
+    {
+        "img" : "condor.jpg",
+        "nome" : "Condor"
+    },
+    {
+        "img" : "max.jpg",
+        "nome" : "Max"
+    },
+    {
+        "img" : "harguer.jpg",
+        "nome" : "Hanger"
+    }
+
+]

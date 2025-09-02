@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cadastro</title>
+  <link rel="stylesheet" href="CSS/style.css" />
+  <link rel="stylesheet" href="CSS/cadastro.css" />
+</head>
+<body>
+  <div class="bodyArea">
+    <header id="header"></header>
+    <aside id="cadastro">
+      <div class="asideArea">
+        <h1>Bem vindo de volta!</h1>
+        <div class="areaImg">
+          <img src="images/Tabletlogin-bro.png" alt="Logo" />
+        </div>
+        <div class="botaoLogin">
+          <a href="#" id="abrirLogin">SIGN IN</a>
+        </div>
+      </div>
+
+      <div class="asideArea2">
+        <h1>Crie uma conta!</h1>
+        <div class="areaImagensLogin">
+          <nav>
+            <ul>
+              <li><img src="images/iconFace2.png" alt="Facebook" /></li>
+              <li><img src="images/gmailIcon2.png" alt="Gmail" /></li>
+              <li><img src="images/instaIcon2.png" alt="Instagram" /></li>
+              <li><img src="images/linkedlnIcon2.png" alt="LinkedIn" /></li>
+            </ul>
+          </nav>
+        </div>
+
+        <form id="formCadastro">
+          <nav>
+            <ul>
+              <li>
+                <div class="areaInputCadastro">
+                  <img src="images/login-user-name-1-64.png" alt="User" />
+                  <input type="text" placeholder="Name" id="name" />
+                </div>
+              </li>
+              <li>
+                <div class="areaInputCadastro">
+                  <img src="images/gmailIcon2.png" alt="Email" />
+                  <input type="email" placeholder="E-mail" id="email" />
+                </div>
+              </li>
+              <li>
+                <div class="areaInputCadastro">
+                  <img src="images/padlock.png" alt="Senha" />
+                  <input type="password" placeholder="Password" id="password" />
+                </div>
+              </li>
+              <li>
+                <div class="areaInputCadastro">
+                  <img src="images/padlock.png" alt="Confirmar Senha" />
+                  <input type="password" placeholder="Confirm password" id="confirmPassword" />
+                </div>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="areaButton">
+            <button type="submit" class="botaoLogin">
+              <a href="#">SIGN UP</a>
+            </button>
+          </div>
+        </form>
+
+        <!-- Caixa de login escondida -->
+        <div class="areaCadastro invisivel" id="loginBox">
+          <h1>Entre em sua conta!</h1>
+          <form id="formLogin">
+            <nav>
+              <ul>
+                <li>
+                  <div class="areaInputCadastro">
+                    <img src="images/gmailIcon2.png" alt="Email" />
+                    <input type="email" placeholder="E-mail/Username" id="loginEmail" />
+                  </div>
+                </li>
+                <li>
+                  <div class="areaInputCadastro">
+                    <img src="images/padlock.png" alt="Senha" />
+                    <input type="password" placeholder="Password" id="loginPassword" />
+                  </div>
+                </li>
+              </ul>
+            </nav>
+          </form>
+
+          <div class="areaImagensLogin">
+            <h2>Deseja entrar por outro método?</h2>
+            <nav>
+              <ul>
+                <li><img src="images/iconFace2.png" alt="Facebook" /></li>
+                <li><img src="images/gmailIcon2.png" alt="Gmail" /></li>
+                <li><img src="images/instaIcon2.png" alt="Instagram" /></li>
+                <li><img src="images/linkedlnIcon2.png" alt="LinkedIn" /></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+
+      </div>
+    </aside>
+  </div>
+
+  <script src="JS/header.js"></script>
+  <script src="JS/login.js"></script>
+</body>
+</html>
